@@ -1,7 +1,7 @@
 module.exports = {
-    entry: "./notBundled.js",
+    entry: "./Native/notBundled.js",
     output: {
-        path: __dirname,
+        path: __dirname + "/Native",
         filename: "Pdf.js"
     },
     module: {

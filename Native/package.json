@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "basic pdf library for elm, based on the jsPdf library",
   "main": "PDF.js",
-  "dependencies": {},
+  "dependencies": {
+    "jspdf": "^1.3.3"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
