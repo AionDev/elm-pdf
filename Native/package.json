@@ -1,0 +1,21 @@
+{
+  "name": "elm-pdf",
+  "version": "1.0.0",
+  "description": "basic pdf library for elm, based on the jsPdf library",
+  "main": "PDF.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AionDev/elm-pdf.git"
+  },
+  "author": "AionDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AionDev/elm-pdf/issues"
+  },
+  "homepage": "https://github.com/AionDev/elm-pdf#readme"
+}
