@@ -3,27 +3,27 @@ let jsPdf = require('jsPdf');
 
 var _AionDev$elm_pdf$Native_Pdf = function() {
 
-    console.log("this never get's called why?!");
-
     function getBlob(instructions) {
 
+
+
         return _elm_lang$core$Native_Scheduler.nativeBinding((callback) => {
-
-            const doc = new jsPDF('portrait', 'mm', 'a4');
-            // instructions.reduce((instruction) =>
-            //     switch instruction {
-            //         case "AddPage"
-            //             doc.addPage()
-            //     }
+            // console.log("this never get's called why?!");
+            // const doc = new jsPDF('portrait', 'mm', 'a4');
+            // // instructions.reduce((instruction) =>
+            // //     switch instruction {
+            // //         case "AddPage"
+            // //             doc.addPage()
+            // //     }
+            // //
+            // // )
             //
-            // )
+            // doc.addPage();
+            // doc.text("my text", 100, 100);
+            //
+            // console.log('problems!');
 
-            doc.addPage();
-            doc.text("my text", 100, 100);
-
-            console.log('problems!');
-
-            callback(_elm_lang$core$Native_Scheduler.succeed(doc.output('bloburl')));
+            callback(_elm_lang$core$Native_Scheduler.succeed("12"));
         })
 
     }
