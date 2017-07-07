@@ -3,4 +3,5 @@ elm-stuff
 # elm-repl generated files
 repl-temp-*
 
-Native/node_modules
+# node_modules
+node_modules

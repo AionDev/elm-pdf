@@ -1,0 +1,22 @@
+{
+  "name": "elm-pdf",
+  "version": "1.0.14",
+  "description": "\"Create pdf documents programmatically from elm. This library is a jsPdf wrapper using ports.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AionDev/elm-pdf.git"
+  },
+  "author": "AionDev <developer.andrasesc.ionut@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AionDev/elm-pdf/issues"
+  },
+  "homepage": "https://github.com/AionDev/elm-pdf#readme",
+  "dependencies": {
+    "jspdf": "^1.3.3"
+  }
+}
